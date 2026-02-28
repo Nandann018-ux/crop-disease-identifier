@@ -5,6 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
+    "build": "echo \"Server build skipped/done\"",
     "dist": "electron-builder"
   },
   "dependencies": {
