@@ -33,7 +33,10 @@ Farmers and agricultural workers, particularly those in rural or low-connectivit
 ## 3. Proposed Solution
 
 ### Solution Overview
+An Electron-based desktop application providing an automated, offline pipeline for plant disease diagnosis.
+
 ### Core Idea
+
 ### Key Features
 
 ---
@@ -53,7 +56,18 @@ User → Frontend → Backend → Model → Database → Response
 ## 5. Database Design
 
 ### ER Diagram
-(Add ER diagram image here)
+```mermaid
+erDiagram
+    DiseaseTreatments {
+        INTEGER DiseaseID PK "Unique identifier mapped to model output index"
+        TEXT CommonName "Common name of the disease"
+        TEXT ScientificName "Scientific classification"
+        TEXT SymptomsSummary "Brief description of visual symptoms"
+        TEXT CulturalControl "Non-chemical management techniques"
+        TEXT ChemicalControl "Recommended fungicide/pesticide treatments"
+        TEXT BiologicalControl "Organic or biological treatment options"
+    }
+```
 
 ### ER Diagram Description
 
