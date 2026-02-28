@@ -182,9 +182,6 @@ Rohit Nair P
 Angelo Nelson
 Nandan S Acharya
 
-
-
-
 ---
 
 ## 15. Future Scope & Scalability
