@@ -62,18 +62,19 @@ User → Frontend → Backend → Model → Database → Response
 ## 6. Dataset Selected
 
 ### Dataset Name
-PlantVillage Dataset (Tomato, Potato, and Bell Pepper Subset)
+PlantVillage Dataset 
 
 ### Source
-Kaggle: [emmarex/plantdisease](https://www.kaggle.com/datasets/emmarex/plantdisease) (Originally curated by the PlantVillage project).
+Kaggle: [emmarex/plantdisease](https://www.kaggle.com/datasets/emmarex/plantdisease)
 
 ### Data Type
-Categorized RGB Images. The dataset contains thousands of images divided into 15 distinct classes, representing both healthy leaves and various disease states (e.g., Early Blight, Late Blight, Bacterial Spot) across three major crops: Tomato, Potato, and Bell Pepper.
+Thousands of RGB leaf images categorized into 15 classes. It covers both healthy and diseased leaves (like Early Blight and Bacterial Spot) for three main crops: tomatoes, potatoes, and bell peppers.
 
 ### Selection Reason
-This dataset is widely recognized as a gold-standard benchmark for training plant disease classification models. It was selected because it provides a large, clean, and expertly labeled collection of high-quality leaf images. Its focus on economically significant crops directly aligns with our goal of assisting farmers with high-impact agricultural challenges. The balanced nature of the classes also prevents the machine learning model from becoming heavily biased toward one specific disease.
+We chose this PlantVillage Dataset because it's an free access kaggle dataset of 54,306 images of healthy and diseased plant leaves, collected to advance research in automated plant disease diagnosis. It covers 14 crop species and 26 diseases, making it one of the largest publicly available datasets for computer vision in agriculture.. It gives us a clean, expertly labeled, and balanced set of images for high-impact crops, making it perfect for training a reliable, real-world model to help farmers.
 
 ### Preprocessing Steps
+
 ---
 
 ## 7. Model Selected
