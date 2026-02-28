@@ -7,9 +7,19 @@ One-line project description.
 ## 1. Problem Statement
 
 ### Problem Title
+Crop Disease Identifier from Leaf Images
+
 ### Problem Description
+Crop diseases cause significant reductions in agricultural productivity and farmer income. While early detection is critical to preventing large-scale damage, farmers currently lack accessible, offline, and real-time diagnostic tools. This project aims to build an on-device, camera-based machine learning system that operates fully offline to identify crop diseases from leaf photographs, estimate severity levels, and provide actionable treatment recommendations directly at the point of need.
+
 ### Target Users
+Farmers and agricultural workers, particularly those in rural or low-connectivity regions who lack immediate access to expert agricultural consultation or reliable internet.
+
 ### Existing Gaps
+* **Reliance on Manual Methods:** Farmers currently depend on guesswork, manual inspection, or delayed expert consultation, allowing diseases to spread before intervention.
+* **Internet Dependency:** Existing digital diagnostic solutions often require active internet connectivity, rendering them unusable in remote agricultural areas.
+* **Lack of Comprehensive Offline Tools:** There is a shortage of tools that combine disease classification, severity estimation, and a locally stored agricultural knowledge base into a single, offline application.
+* **Economic Vulnerability:** Delayed diagnoses lead to decreased crop yields, increased input costs for late treatments, and reduced income stability for farmers.
 
 ---
 
