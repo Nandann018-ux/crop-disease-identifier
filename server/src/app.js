@@ -8,7 +8,7 @@ const { getTreatmentByCommonName, getSpeciesList } = require('./database');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware
+// Middlewaree
 app.use(cors());
 app.use(express.json());
 
