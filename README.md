@@ -6,11 +6,13 @@
 ## Download the Application
 
 You can download the compiled application files directly from Google Drive:
-***[Download for Windows (.exe)]https://drive.google.com/drive/folders/1qDcAtOL26TitKLCMfgURLtPpVEBgenYk?usp=sharing**
-* **[Download for macOS (.dmg)]https://drive.google.com/drive/folders/1PxCOirurar8vtZWZUrtAi0g5HQV7F-l8?usp=sharing**
+
+***[Download for Windows (.exe)]https://drive.google.com/drive/folders/1PxCOirurar8vtZWZUrtAi0g5HQV7F-l8?usp=sharing**
+***[Download for macOS (.dmg)]https://drive.google.com/drive/folders/1qDcAtOL26TitKLCMfgURLtPpVEBgenYk?usp=sharing**
 
 ---
-
+https://drive.google.com/drive/folders/1qDcAtOL26TitKLCMfgURLtPpVEBgenYk?usp=sharing
+https://drive.google.com/drive/folders/1PxCOirurar8vtZWZUrtAi0g5HQV7F-l8?usp=sharing
 ## 1. Problem Statement
 
 ### Problem Title
