@@ -10,14 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: '20.19'
+          cache: 'npm'
 
-      - name: Install client dependencies
-        run: cd client && npm install --legacy-peer-deps
+      - name: Clean npm cache and reinstall dependencies
+        run: |
+          cd client
+          rm -rf node_modules package-lock.json
+          npm cache clean --force
+          npm install
 
       - name: Build client
-        run: cd client && npm run build
+        run: |
+          cd client
+          npm run build
