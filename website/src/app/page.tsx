@@ -6,30 +6,33 @@ export default function Home() {
   return (
     <div className="w-full flex-1 flex flex-col pt-16 pb-24">
 
-      
+
       <section className="px-6 w-full max-w-4xl mx-auto flex flex-col items-center text-center mt-12 mb-16 relative z-10">
 
-        
+
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand/10 text-brand text-xs font-semibold mb-8 border border-brand/20">
           <div className="w-1.5 h-1.5 rounded-full bg-brand"></div>
           AI-Powered Offline Diagnosis
         </div>
 
-        
+
         <h1 className="text-5xl md:text-6xl lg:text-[4.5rem] font-bold tracking-tight text-dark mb-6 leading-[1.1]">
           Crop Disease <br />
           <span className="text-brand">Identifier</span>
         </h1>
 
-        
-        <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto font-medium">
+
+        <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto font-medium mb-4">
           Protect your harvest with instant, offline AI diagnosis. <br className="hidden md:block" />
           Designed for precision in the field, wherever you are.
         </p>
+        <div className="flex items-center justify-center gap-2 text-sm font-semibold text-gray-400 mt-2">
+          <span>Swin Transformer V2</span> • <span>ONNX Runtime</span> • <span>U-Net</span>
+        </div>
 
       </section>
 
-      
+
       <section className="px-6 w-full max-w-[800px] mx-auto z-20 mb-20" id="download">
         <div className="bg-white/80 backdrop-blur-xl border border-gray-100 rounded-[2rem] shadow-2xl shadow-gray-200/50 p-8 md:p-10 flex flex-col items-center">
 
@@ -42,7 +45,7 @@ export default function Home() {
               target="_blank" rel="noopener noreferrer"
               className="group relative flex items-center justify-center gap-4 bg-white border border-gray-200 text-dark px-8 py-5 rounded-xl w-full md:w-72 hover:bg-[#121417] hover:border-transparent hover:text-white transition-all shadow-sm hover:shadow-lg"
             >
-              
+
               <div className="absolute top-3 right-3 w-1.5 h-1.5 bg-brand rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
               <div className="text-gray-600 group-hover:text-white/80 transition-colors">
@@ -61,7 +64,7 @@ export default function Home() {
               target="_blank" rel="noopener noreferrer"
               className="group relative flex items-center justify-center gap-4 bg-white border border-gray-200 text-dark px-8 py-5 rounded-xl w-full md:w-72 hover:bg-[#121417] hover:border-transparent hover:text-white transition-all shadow-sm hover:shadow-lg"
             >
-              
+
               <div className="absolute top-3 right-3 w-1.5 h-1.5 bg-brand rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
               <div className="text-gray-600 group-hover:text-white/80 transition-colors">
@@ -84,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-      
+
       <section className="px-6 w-full max-w-[1000px] mx-auto mb-24 relative z-10">
         <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl h-[300px] md:h-[500px] bg-gray-200 ring-1 ring-gray-900/5">
 
@@ -96,7 +99,7 @@ export default function Home() {
             unoptimized
           />
 
-          
+
           <div className="absolute bottom-6 left-6 md:bottom-12 md:left-12 z-20 bg-white/95 backdrop-blur-md px-6 py-4 rounded-2xl flex items-center gap-4 shadow-xl border border-white/20">
             <div className="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center text-brand shrink-0 shadow-sm border border-brand/20">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
@@ -111,10 +114,10 @@ export default function Home() {
         </div>
       </section>
 
-      
+
       <section className="px-6 w-full max-w-[1200px] mx-auto grid md:grid-cols-3 gap-6 relative z-10" id="features">
 
-        
+
         <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl shadow-gray-200/40 border border-gray-50 flex flex-col justify-between hover:shadow-2xl transition-shadow">
           <div>
             <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center mb-10 border border-gray-100">
@@ -135,9 +138,9 @@ export default function Home() {
           </div>
         </div>
 
-        
+
         <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl shadow-gray-200/40 border border-gray-50 flex flex-col justify-between relative overflow-hidden hover:shadow-2xl transition-shadow text-center items-center">
-          
+
           <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/4 opacity-10 pointer-events-none">
             <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="100" cy="100" r="90" stroke="currentColor" strokeWidth="15" />
@@ -161,7 +164,7 @@ export default function Home() {
           </div>
         </div>
 
-        
+
         <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl shadow-gray-200/40 border border-gray-50 flex flex-col justify-between hover:shadow-2xl transition-shadow">
           <div>
             <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center mb-10 border border-gray-100">
