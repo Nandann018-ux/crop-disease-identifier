@@ -22,13 +22,10 @@ export default function Home() {
         </h1>
 
 
-        <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto font-medium mb-4">
+        <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto font-medium">
           Protect your harvest with instant, offline AI diagnosis. <br className="hidden md:block" />
           Designed for precision in the field, wherever you are.
         </p>
-        <div className="flex items-center justify-center gap-2 text-sm font-semibold text-gray-400 mt-2">
-          <span>Swin Transformer V2</span> • <span>ONNX Runtime</span> • <span>U-Net</span>
-        </div>
 
       </section>
 

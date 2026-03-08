@@ -625,11 +625,8 @@ function App() {
         )}
 
         {/* Footer */}
-        <div className="mt-16 text-center text-xs text-gray-400 pb-8 space-y-2">
+        <div className="mt-16 text-center text-xs text-gray-400 pb-8">
           <p>All analysis runs locally on your device. No data is transmitted externally.</p>
-          <p className="flex items-center justify-center gap-1">
-            Powered by <span className="font-medium text-emerald-600">Swin Transformer V2</span> & <span className="font-medium text-emerald-600">ONNX Runtime</span>
-          </p>
         </div>
       </main>
     </div>
